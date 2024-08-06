@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mio Client</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: url('image.png') repeat center center;
+            background-size: cover;
+            color: #ccc;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.7);
+        }
+
+        .logo {
+            font-size: 24px;
+            color: #e91e63;
+        }
+
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #9c27b0;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 100px 20px;
+            background: rgba(0, 0, 0, 0.8);
+        }
+
+        .hero h1 {
+            font-size: 48px;
+            color: #e91e63;
+        }
+
+        .hero h1 span {
+            color: #9c27b0;
+        }
+
+        .hero p {
+            font-size: 24px;
+            color: #ccc;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin-top: 20px;
+            background: #e91e63;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .features {
+            display: flex;
+            justify-content: space-around;
+            padding: 50px 20px;
+            background: rgba(0, 0, 0, 0.8);
+        }
+
+        .feature {
+            max-width: 300px;
+        }
+
+        .feature h2 {
+            color: #e91e63;
+        }
+
+        .feature p {
+            color: #ccc;
+        }
+
+        .media {
+            text-align: center;
+            padding: 50px 20px;
+            background: rgba(0, 0, 0, 0.8);
+        }
+
+        .media h2 {
+            color: #e91e63;
+        }
+
+        .media p {
+            color: #ccc;
+        }
+
+        .media-content {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .media-content iframe, .media-content img {
+            max-width: 100%;
+            margin: 0 10px;
+        }
+
+        .visuals {
+            text-align: center;
+            padding: 50px 20px;
+            background: rgba(0, 0, 0, 0.8);
+        }
+
+        .visuals h2 {
+            color: #e91e63;
+        }
+
+        .visuals p {
+            color: #ccc;
+        }
+
+        .testimonials {
+            padding: 50px 20px;
+            background: rgba(0, 0, 0, 0.8);
+        }
+
+        .testimonials h2 {
+            text-align: center;
+            color: #e91e63;
+        }
+
+        .testimonial {
+            max-width: 400px;
+            margin: 20px auto;
+            background: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            border-radius: 5px;
+        }
+
+        .testimonial p {
+            color: #ccc;
+        }
+
+        .testimonial .user {
+            margin-top: 10px;
+            font-weight: bold;
+            color: #e91e63;
+        }
+
+        footer {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.7);
+        }
+
+        footer nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #9c27b0;
+        }
+
+        footer p {
+            color: #ccc;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">mioclient.me</div>
+        <nav>
+            <a href="#">changelogs</a>
+            <a href="#">discord</a>
+            <a href="#">dashboard</a>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <h1>The ultimate gaming <span>solution</span></h1>
+            <p>Anarchy-aimed modification for the newest versions of Minecraft</p>
+            <a href="#" class="button">Get Started</a>
+        </section>
+        <section class="features">
+            <div class="feature">
+                <h2>Amazing visuals</h2>
+                <p>While using Mio, you won't only have the edge in combat. Sit back and enjoy the pure bliss of world-changing Mio's visual features.</p>
+            </div>
+            <div class="feature">
+                <h2>Powerful combat</h2>
+                <p>Mio will make sure you always have the edge with its signature features like a fast AutoCrystal and an amazing BedAura, with more on the way.</p>
+            </div>
+            <div class="feature">
+                <h2>Flawless movement</h2>
+                <p>After using Mio once, you can never go back. The movement modules make PvP, building and traveling smooth like butter.</p>
+            </div>
+        </section>
+        <section class="media">
+            <h2>Media</h2>
+            <p>Enjoy the content brought to life by Mio's capabilities</p>
+            <div class="media-content">
+                <iframe src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allowfullscreen></iframe>
+                <img src="image.png" alt="Media Image">
+            </div>
+        </section>
+        <section class="visuals">
+            <h2>Visuals</h2>
+            <p>Find the color theme that suits you best!</p>
+        </section>
+        <section class="testimonials">
+            <h2>Testimonials</h2>
+            <div class="testimonial">
+                <p>The client is great, even better is the fast support/dev team though. In mio, features you suggest can actually make it into the client and bugs get fixed fast.</p>
+                <div class="user">nukiz</div>
+            </div>
+            <div class="testimonial">
+                <p>Mio is a solid client, it offers a good looking GUI, an easy to use HUD editor, Some powerful PVP modules and some cool render / utility modules. Everything offered is customizable though as I always say “no client is perfect” Mio included but nothing that can't be fixed with some updates.</p>
+                <div class="user">KiLABGaming</div>
+            </div>
+            <div class="testimonial">
+                <p>Мио – это замечательный клиент, который полностью удовлетворяет все мои потребности. Одним из больших плюсов является то, что все разработчики русскоязычные. Особенно нравится что разработчики активно взаимодействуют с сообществом, и есть возможность обсудить с ними любые вопросы, связанные с клиентом.</p>
+                <div class="user">lemoliam</div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Copyright © 2024 Mio</p>
+        <nav>
+            <a href="#">Contact</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+        </nav>
+    </footer>
+</body>
+</html>
